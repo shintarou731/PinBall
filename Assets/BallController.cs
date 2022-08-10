@@ -96,6 +96,7 @@ public class BallController : MonoBehaviour
         }
 
         // scoreTextに得点を表示する。int型→String型へコンバート
+        // "" + this.Score_i + "";でいけた
         this.scoreText.GetComponent<Text>().text = Convert.ToString(this.Score_i);
 
     }
